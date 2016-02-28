@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="300" id="05h-P4-P7P" customClass="KVRTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="665" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="05h-P4-P7P" id="h4O-bj-60e">
+                <rect key="frame" x="0.0" y="0.0" width="665" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qzG-hd-p7D" userLabel="AskerImage">
+                        <rect key="frame" x="0.0" y="0.0" width="275" height="275"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="qzG-hd-p7D" secondAttribute="height" multiplier="1:1" id="AKm-0F-jxv"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PdU-em-7MJ" userLabel="ReplierImage">
+                        <rect key="frame" x="258" y="0.0" width="244" height="237"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="PdU-em-7MJ" secondAttribute="height" multiplier="1:1" id="yok-fT-4JT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTL-xX-DzE" userLabel="LabelAsker">
+                        <rect key="frame" x="54" y="150" width="42" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="eWB-D6-3uO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0QE-9x-pye" userLabel="VideoThumb">
+                        <rect key="frame" x="365" y="0.0" width="300" height="300"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="0QE-9x-pye" secondAttribute="height" multiplier="1:1" id="e2s-go-s3S"/>
+                        </constraints>
+                    </imageView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="mEm-Ve-kYY" userLabel="AskerProgress">
+                        <rect key="frame" x="113" y="113" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9ZC-k0-nJe" userLabel="ThumnailProgress">
+                        <rect key="frame" x="505" y="140" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="CAb-n3-LI1" userLabel="ReplierProgress">
+                        <rect key="frame" x="221" y="65" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNd-6z-3Op" userLabel="LabelReplier">
+                        <rect key="frame" x="204" y="150" width="42" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="Bcv-8m-eZP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="MNd-6z-3Op" secondAttribute="bottom" constant="2" id="1bn-TW-ZVc"/>
+                    <constraint firstItem="oTL-xX-DzE" firstAttribute="centerX" secondItem="qzG-hd-p7D" secondAttribute="centerX" id="6wC-b0-vgf"/>
+                    <constraint firstItem="oTL-xX-DzE" firstAttribute="width" secondItem="qzG-hd-p7D" secondAttribute="width" id="7Bb-ge-kuv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0QE-9x-pye" secondAttribute="bottom" constant="-9" id="A8T-6V-yhS"/>
+                    <constraint firstItem="MNd-6z-3Op" firstAttribute="width" secondItem="PdU-em-7MJ" secondAttribute="width" id="PoE-ko-ghD"/>
+                    <constraint firstItem="CAb-n3-LI1" firstAttribute="centerX" secondItem="PdU-em-7MJ" secondAttribute="centerX" id="SaV-eH-ZQD"/>
+                    <constraint firstItem="oTL-xX-DzE" firstAttribute="top" secondItem="qzG-hd-p7D" secondAttribute="bottom" constant="1" id="Tls-vp-t8N"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="0QE-9x-pye" secondAttribute="trailing" constant="-8" id="V1k-hY-MJe"/>
+                    <constraint firstItem="MNd-6z-3Op" firstAttribute="centerX" secondItem="PdU-em-7MJ" secondAttribute="centerX" id="Xjl-Ib-ROn"/>
+                    <constraint firstItem="CAb-n3-LI1" firstAttribute="centerY" secondItem="PdU-em-7MJ" secondAttribute="centerY" id="d7K-qE-OFd"/>
+                    <constraint firstItem="qzG-hd-p7D" firstAttribute="leading" secondItem="h4O-bj-60e" secondAttribute="leadingMargin" constant="-8" id="dUT-8N-aQE"/>
+                    <constraint firstItem="MNd-6z-3Op" firstAttribute="top" secondItem="PdU-em-7MJ" secondAttribute="bottom" constant="1" id="f5C-fJ-dO2"/>
+                    <constraint firstItem="0QE-9x-pye" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="-8" id="ifY-Cm-qLi"/>
+                    <constraint firstItem="qzG-hd-p7D" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="-8" id="lL3-Ic-6Gu"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="oTL-xX-DzE" secondAttribute="bottom" constant="2" id="nBm-QX-pns"/>
+                    <constraint firstItem="mEm-Ve-kYY" firstAttribute="centerY" secondItem="qzG-hd-p7D" secondAttribute="centerY" id="nIj-zs-399"/>
+                    <constraint firstItem="PdU-em-7MJ" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="-8" id="nuO-ko-A6C"/>
+                    <constraint firstItem="PdU-em-7MJ" firstAttribute="width" secondItem="qzG-hd-p7D" secondAttribute="width" id="oh2-BN-jSr"/>
+                    <constraint firstItem="mEm-Ve-kYY" firstAttribute="centerX" secondItem="qzG-hd-p7D" secondAttribute="centerX" id="qys-R5-zmP"/>
+                    <constraint firstItem="PdU-em-7MJ" firstAttribute="leading" secondItem="qzG-hd-p7D" secondAttribute="trailing" constant="14" id="ulT-Go-PoR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="askerImage" destination="qzG-hd-p7D" id="8cr-16-S6e"/>
+                <outlet property="askerName" destination="oTL-xX-DzE" id="Dc5-2F-AWK"/>
+                <outlet property="askerProgress" destination="mEm-Ve-kYY" id="JnJ-Es-NKj"/>
+                <outlet property="replierImage" destination="PdU-em-7MJ" id="KFd-2Y-ZJn"/>
+                <outlet property="replierName" destination="MNd-6z-3Op" id="bQQ-yF-l5k"/>
+                <outlet property="replierProgress" destination="CAb-n3-LI1" id="l49-rB-SST"/>
+                <outlet property="thumbnailProgress" destination="9ZC-k0-nJe" id="2hX-9y-9JN"/>
+                <outlet property="videoThumb" destination="0QE-9x-pye" id="ZUM-sW-Pc9"/>
+            </connections>
+            <point key="canvasLocation" x="885.5" y="716"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -13,8 +13,17 @@
 		7334B0A31C82BF26008FD097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7334B0A11C82BF26008FD097 /* Main.storyboard */; };
 		7334B0A51C82BF26008FD097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7334B0A41C82BF26008FD097 /* Assets.xcassets */; };
 		7334B0A81C82BF26008FD097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7334B0A61C82BF26008FD097 /* LaunchScreen.storyboard */; };
-		7334B0B31C82BF26008FD097 /* KwikieViewRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0B21C82BF26008FD097 /* KwikieViewRTests.m */; };
 		7334B0BE1C82BF26008FD097 /* KwikieViewRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0BD1C82BF26008FD097 /* KwikieViewRUITests.m */; };
+		7334B0CD1C82DA98008FD097 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0CC1C82DA98008FD097 /* NetworkManager.m */; settings = {ASSET_TAGS = (); }; };
+		7334B0D01C82DD0B008FD097 /* KwickieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0CF1C82DD0B008FD097 /* KwickieModel.m */; settings = {ASSET_TAGS = (); }; };
+		7334B0D91C82FAC0008FD097 /* KVRMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0D81C82FAC0008FD097 /* KVRMainTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7334B0DB1C8312F0008FD097 /* KVRTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7334B0DA1C8312F0008FD097 /* KVRTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		7334B0DE1C831AA7008FD097 /* KVRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0DD1C831AA7008FD097 /* KVRTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		7334B0E01C835922008FD097 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7334B0DF1C835922008FD097 /* AVFoundation.framework */; };
+		7334B0E51C8359FB008FD097 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7334B0E41C8359FB008FD097 /* AVKit.framework */; };
+		7334B0E81C835D12008FD097 /* KVRPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0E71C835D12008FD097 /* KVRPlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		733667E31C836BF100B0DD9B /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 733667E21C836BF100B0DD9B /* TestModel.m */; settings = {ASSET_TAGS = (); }; };
+		733667E41C83742600B0DD9B /* KwickieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0CF1C82DD0B008FD097 /* KwickieModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +55,25 @@
 		7334B0A71C82BF26008FD097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7334B0A91C82BF26008FD097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7334B0AE1C82BF26008FD097 /* KwikieViewRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwikieViewRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7334B0B21C82BF26008FD097 /* KwikieViewRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KwikieViewRTests.m; sourceTree = "<group>"; };
 		7334B0B41C82BF26008FD097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7334B0B91C82BF26008FD097 /* KwikieViewRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwikieViewRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7334B0BD1C82BF26008FD097 /* KwikieViewRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KwikieViewRUITests.m; sourceTree = "<group>"; };
 		7334B0BF1C82BF26008FD097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7334B0CB1C82DA98008FD097 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		7334B0CC1C82DA98008FD097 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		7334B0CE1C82DD0B008FD097 /* KwickieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KwickieModel.h; sourceTree = "<group>"; };
+		7334B0CF1C82DD0B008FD097 /* KwickieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KwickieModel.m; sourceTree = "<group>"; };
+		7334B0D41C82DF4D008FD097 /* KwickieModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KwickieModel+Private.h"; path = "../KwickieModel+Private.h"; sourceTree = "<group>"; };
+		7334B0D71C82FAC0008FD097 /* KVRMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVRMainTableViewController.h; sourceTree = "<group>"; };
+		7334B0D81C82FAC0008FD097 /* KVRMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVRMainTableViewController.m; sourceTree = "<group>"; };
+		7334B0DA1C8312F0008FD097 /* KVRTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVRTableViewCell.xib; sourceTree = "<group>"; };
+		7334B0DC1C831AA7008FD097 /* KVRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVRTableViewCell.h; sourceTree = "<group>"; };
+		7334B0DD1C831AA7008FD097 /* KVRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVRTableViewCell.m; sourceTree = "<group>"; };
+		7334B0DF1C835922008FD097 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7334B0E41C8359FB008FD097 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		7334B0E61C835D12008FD097 /* KVRPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVRPlayerViewController.h; sourceTree = "<group>"; };
+		7334B0E71C835D12008FD097 /* KVRPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVRPlayerViewController.m; sourceTree = "<group>"; };
+		733667E21C836BF100B0DD9B /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestModel.m; path = ../KwikieViewR/UnitTests/TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7334B0E51C8359FB008FD097 /* AVKit.framework in Frameworks */,
+				7334B0E01C835922008FD097 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 		7334B08C1C82BF26008FD097 = {
 			isa = PBXGroup;
 			children = (
+				7334B0E41C8359FB008FD097 /* AVKit.framework */,
+				7334B0DF1C835922008FD097 /* AVFoundation.framework */,
 				7334B0971C82BF26008FD097 /* KwikieViewR */,
 				7334B0B11C82BF26008FD097 /* KwikieViewRTests */,
 				7334B0BC1C82BF26008FD097 /* KwikieViewRUITests */,
@@ -101,11 +128,23 @@
 		7334B0971C82BF26008FD097 /* KwikieViewR */ = {
 			isa = PBXGroup;
 			children = (
+				7334B0E61C835D12008FD097 /* KVRPlayerViewController.h */,
+				7334B0E71C835D12008FD097 /* KVRPlayerViewController.m */,
+				7334B0D41C82DF4D008FD097 /* KwickieModel+Private.h */,
 				7334B09B1C82BF26008FD097 /* AppDelegate.h */,
 				7334B09C1C82BF26008FD097 /* AppDelegate.m */,
 				7334B09E1C82BF26008FD097 /* ViewController.h */,
 				7334B09F1C82BF26008FD097 /* ViewController.m */,
+				7334B0DA1C8312F0008FD097 /* KVRTableViewCell.xib */,
+				7334B0DC1C831AA7008FD097 /* KVRTableViewCell.h */,
+				7334B0DD1C831AA7008FD097 /* KVRTableViewCell.m */,
+				7334B0CB1C82DA98008FD097 /* NetworkManager.h */,
+				7334B0CE1C82DD0B008FD097 /* KwickieModel.h */,
+				7334B0CF1C82DD0B008FD097 /* KwickieModel.m */,
+				7334B0CC1C82DA98008FD097 /* NetworkManager.m */,
 				7334B0A11C82BF26008FD097 /* Main.storyboard */,
+				7334B0D71C82FAC0008FD097 /* KVRMainTableViewController.h */,
+				7334B0D81C82FAC0008FD097 /* KVRMainTableViewController.m */,
 				7334B0A41C82BF26008FD097 /* Assets.xcassets */,
 				7334B0A61C82BF26008FD097 /* LaunchScreen.storyboard */,
 				7334B0A91C82BF26008FD097 /* Info.plist */,
@@ -125,7 +164,7 @@
 		7334B0B11C82BF26008FD097 /* KwikieViewRTests */ = {
 			isa = PBXGroup;
 			children = (
-				7334B0B21C82BF26008FD097 /* KwikieViewRTests.m */,
+				733667E21C836BF100B0DD9B /* TestModel.m */,
 				7334B0B41C82BF26008FD097 /* Info.plist */,
 			);
 			path = KwikieViewRTests;
@@ -244,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7334B0A81C82BF26008FD097 /* LaunchScreen.storyboard in Resources */,
+				7334B0DB1C8312F0008FD097 /* KVRTableViewCell.xib in Resources */,
 				7334B0A51C82BF26008FD097 /* Assets.xcassets in Resources */,
 				7334B0A31C82BF26008FD097 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7334B0DE1C831AA7008FD097 /* KVRTableViewCell.m in Sources */,
+				7334B0CD1C82DA98008FD097 /* NetworkManager.m in Sources */,
 				7334B0A01C82BF26008FD097 /* ViewController.m in Sources */,
+				7334B0E81C835D12008FD097 /* KVRPlayerViewController.m in Sources */,
+				7334B0D91C82FAC0008FD097 /* KVRMainTableViewController.m in Sources */,
 				7334B09D1C82BF26008FD097 /* AppDelegate.m in Sources */,
+				7334B0D01C82DD0B008FD097 /* KwickieModel.m in Sources */,
 				7334B09A1C82BF26008FD097 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7334B0B31C82BF26008FD097 /* KwikieViewRTests.m in Sources */,
+				733667E31C836BF100B0DD9B /* TestModel.m in Sources */,
+				733667E41C83742600B0DD9B /* KwickieModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +544,7 @@
 				7334B0C41C82BF26008FD097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7334B0C51C82BF26008FD097 /* Build configuration list for PBXNativeTarget "KwikieViewRTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +553,7 @@
 				7334B0C71C82BF26008FD097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7334B0C81C82BF26008FD097 /* Build configuration list for PBXNativeTarget "KwikieViewRUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +562,7 @@
 				7334B0CA1C82BF26008FD097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
