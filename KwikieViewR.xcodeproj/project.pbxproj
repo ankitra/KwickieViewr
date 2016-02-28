@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73100AAA1C838C230003DF6F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7334B0951C82BF26008FD097 /* KwikieViewR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikieViewR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7334B0991C82BF26008FD097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7334B09B1C82BF26008FD097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 				7334B0B11C82BF26008FD097 /* KwikieViewRTests */,
 				7334B0BC1C82BF26008FD097 /* KwikieViewRUITests */,
 				7334B0961C82BF26008FD097 /* Products */,
+				73100AAA1C838C230003DF6F /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
