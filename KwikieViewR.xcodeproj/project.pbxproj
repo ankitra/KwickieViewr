@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7334B09A1C82BF26008FD097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0991C82BF26008FD097 /* main.m */; };
+		7334B09D1C82BF26008FD097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B09C1C82BF26008FD097 /* AppDelegate.m */; };
+		7334B0A01C82BF26008FD097 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B09F1C82BF26008FD097 /* ViewController.m */; };
+		7334B0A31C82BF26008FD097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7334B0A11C82BF26008FD097 /* Main.storyboard */; };
+		7334B0A51C82BF26008FD097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7334B0A41C82BF26008FD097 /* Assets.xcassets */; };
+		7334B0A81C82BF26008FD097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7334B0A61C82BF26008FD097 /* LaunchScreen.storyboard */; };
+		7334B0B31C82BF26008FD097 /* KwikieViewRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0B21C82BF26008FD097 /* KwikieViewRTests.m */; };
+		7334B0BE1C82BF26008FD097 /* KwikieViewRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334B0BD1C82BF26008FD097 /* KwikieViewRUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7334B0AF1C82BF26008FD097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7334B08D1C82BF26008FD097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7334B0941C82BF26008FD097;
+			remoteInfo = KwikieViewR;
+		};
+		7334B0BA1C82BF26008FD097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7334B08D1C82BF26008FD097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7334B0941C82BF26008FD097;
+			remoteInfo = KwikieViewR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7334B0951C82BF26008FD097 /* KwikieViewR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikieViewR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7334B0991C82BF26008FD097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7334B09B1C82BF26008FD097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7334B09C1C82BF26008FD097 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7334B09E1C82BF26008FD097 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7334B09F1C82BF26008FD097 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7334B0A21C82BF26008FD097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7334B0A41C82BF26008FD097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7334B0A71C82BF26008FD097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7334B0A91C82BF26008FD097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7334B0AE1C82BF26008FD097 /* KwikieViewRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwikieViewRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7334B0B21C82BF26008FD097 /* KwikieViewRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KwikieViewRTests.m; sourceTree = "<group>"; };
+		7334B0B41C82BF26008FD097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7334B0B91C82BF26008FD097 /* KwikieViewRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwikieViewRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7334B0BD1C82BF26008FD097 /* KwikieViewRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KwikieViewRUITests.m; sourceTree = "<group>"; };
+		7334B0BF1C82BF26008FD097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7334B0921C82BF26008FD097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7334B0AB1C82BF26008FD097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7334B0B61C82BF26008FD097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7334B08C1C82BF26008FD097 = {
+			isa = PBXGroup;
+			children = (
+				7334B0971C82BF26008FD097 /* KwikieViewR */,
+				7334B0B11C82BF26008FD097 /* KwikieViewRTests */,
+				7334B0BC1C82BF26008FD097 /* KwikieViewRUITests */,
+				7334B0961C82BF26008FD097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7334B0961C82BF26008FD097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7334B0951C82BF26008FD097 /* KwikieViewR.app */,
+				7334B0AE1C82BF26008FD097 /* KwikieViewRTests.xctest */,
+				7334B0B91C82BF26008FD097 /* KwikieViewRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7334B0971C82BF26008FD097 /* KwikieViewR */ = {
+			isa = PBXGroup;
+			children = (
+				7334B09B1C82BF26008FD097 /* AppDelegate.h */,
+				7334B09C1C82BF26008FD097 /* AppDelegate.m */,
+				7334B09E1C82BF26008FD097 /* ViewController.h */,
+				7334B09F1C82BF26008FD097 /* ViewController.m */,
+				7334B0A11C82BF26008FD097 /* Main.storyboard */,
+				7334B0A41C82BF26008FD097 /* Assets.xcassets */,
+				7334B0A61C82BF26008FD097 /* LaunchScreen.storyboard */,
+				7334B0A91C82BF26008FD097 /* Info.plist */,
+				7334B0981C82BF26008FD097 /* Supporting Files */,
+			);
+			path = KwikieViewR;
+			sourceTree = "<group>";
+		};
+		7334B0981C82BF26008FD097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7334B0991C82BF26008FD097 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7334B0B11C82BF26008FD097 /* KwikieViewRTests */ = {
+			isa = PBXGroup;
+			children = (
+				7334B0B21C82BF26008FD097 /* KwikieViewRTests.m */,
+				7334B0B41C82BF26008FD097 /* Info.plist */,
+			);
+			path = KwikieViewRTests;
+			sourceTree = "<group>";
+		};
+		7334B0BC1C82BF26008FD097 /* KwikieViewRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7334B0BD1C82BF26008FD097 /* KwikieViewRUITests.m */,
+				7334B0BF1C82BF26008FD097 /* Info.plist */,
+			);
+			path = KwikieViewRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7334B0941C82BF26008FD097 /* KwikieViewR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7334B0C21C82BF26008FD097 /* Build configuration list for PBXNativeTarget "KwikieViewR" */;
+			buildPhases = (
+				7334B0911C82BF26008FD097 /* Sources */,
+				7334B0921C82BF26008FD097 /* Frameworks */,
+				7334B0931C82BF26008FD097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KwikieViewR;
+			productName = KwikieViewR;
+			productReference = 7334B0951C82BF26008FD097 /* KwikieViewR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7334B0AD1C82BF26008FD097 /* KwikieViewRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7334B0C51C82BF26008FD097 /* Build configuration list for PBXNativeTarget "KwikieViewRTests" */;
+			buildPhases = (
+				7334B0AA1C82BF26008FD097 /* Sources */,
+				7334B0AB1C82BF26008FD097 /* Frameworks */,
+				7334B0AC1C82BF26008FD097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7334B0B01C82BF26008FD097 /* PBXTargetDependency */,
+			);
+			name = KwikieViewRTests;
+			productName = KwikieViewRTests;
+			productReference = 7334B0AE1C82BF26008FD097 /* KwikieViewRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7334B0B81C82BF26008FD097 /* KwikieViewRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7334B0C81C82BF26008FD097 /* Build configuration list for PBXNativeTarget "KwikieViewRUITests" */;
+			buildPhases = (
+				7334B0B51C82BF26008FD097 /* Sources */,
+				7334B0B61C82BF26008FD097 /* Frameworks */,
+				7334B0B71C82BF26008FD097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7334B0BB1C82BF26008FD097 /* PBXTargetDependency */,
+			);
+			name = KwikieViewRUITests;
+			productName = KwikieViewRUITests;
+			productReference = 7334B0B91C82BF26008FD097 /* KwikieViewRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7334B08D1C82BF26008FD097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Ankit;
+				TargetAttributes = {
+					7334B0941C82BF26008FD097 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7334B0AD1C82BF26008FD097 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7334B0941C82BF26008FD097;
+					};
+					7334B0B81C82BF26008FD097 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7334B0941C82BF26008FD097;
+					};
+				};
+			};
+			buildConfigurationList = 7334B0901C82BF26008FD097 /* Build configuration list for PBXProject "KwikieViewR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7334B08C1C82BF26008FD097;
+			productRefGroup = 7334B0961C82BF26008FD097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7334B0941C82BF26008FD097 /* KwikieViewR */,
+				7334B0AD1C82BF26008FD097 /* KwikieViewRTests */,
+				7334B0B81C82BF26008FD097 /* KwikieViewRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7334B0931C82BF26008FD097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334B0A81C82BF26008FD097 /* LaunchScreen.storyboard in Resources */,
+				7334B0A51C82BF26008FD097 /* Assets.xcassets in Resources */,
+				7334B0A31C82BF26008FD097 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7334B0AC1C82BF26008FD097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7334B0B71C82BF26008FD097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7334B0911C82BF26008FD097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334B0A01C82BF26008FD097 /* ViewController.m in Sources */,
+				7334B09D1C82BF26008FD097 /* AppDelegate.m in Sources */,
+				7334B09A1C82BF26008FD097 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7334B0AA1C82BF26008FD097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334B0B31C82BF26008FD097 /* KwikieViewRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7334B0B51C82BF26008FD097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334B0BE1C82BF26008FD097 /* KwikieViewRUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7334B0B01C82BF26008FD097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7334B0941C82BF26008FD097 /* KwikieViewR */;
+			targetProxy = 7334B0AF1C82BF26008FD097 /* PBXContainerItemProxy */;
+		};
+		7334B0BB1C82BF26008FD097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7334B0941C82BF26008FD097 /* KwikieViewR */;
+			targetProxy = 7334B0BA1C82BF26008FD097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7334B0A11C82BF26008FD097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7334B0A21C82BF26008FD097 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7334B0A61C82BF26008FD097 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7334B0A71C82BF26008FD097 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7334B0C01C82BF26008FD097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7334B0C11C82BF26008FD097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7334B0C31C82BF26008FD097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KwikieViewR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snipschat.KwikieViewR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7334B0C41C82BF26008FD097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KwikieViewR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snipschat.KwikieViewR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7334B0C61C82BF26008FD097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KwikieViewRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snipschat.KwikieViewRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwikieViewR.app/KwikieViewR";
+			};
+			name = Debug;
+		};
+		7334B0C71C82BF26008FD097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KwikieViewRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snipschat.KwikieViewRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwikieViewR.app/KwikieViewR";
+			};
+			name = Release;
+		};
+		7334B0C91C82BF26008FD097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KwikieViewRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snipschat.KwikieViewRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KwikieViewR;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7334B0CA1C82BF26008FD097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KwikieViewRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snipschat.KwikieViewRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KwikieViewR;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7334B0901C82BF26008FD097 /* Build configuration list for PBXProject "KwikieViewR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7334B0C01C82BF26008FD097 /* Debug */,
+				7334B0C11C82BF26008FD097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7334B0C21C82BF26008FD097 /* Build configuration list for PBXNativeTarget "KwikieViewR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7334B0C31C82BF26008FD097 /* Debug */,
+				7334B0C41C82BF26008FD097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7334B0C51C82BF26008FD097 /* Build configuration list for PBXNativeTarget "KwikieViewRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7334B0C61C82BF26008FD097 /* Debug */,
+				7334B0C71C82BF26008FD097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7334B0C81C82BF26008FD097 /* Build configuration list for PBXNativeTarget "KwikieViewRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7334B0C91C82BF26008FD097 /* Debug */,
+				7334B0CA1C82BF26008FD097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7334B08D1C82BF26008FD097 /* Project object */;
+}
