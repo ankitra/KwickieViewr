@@ -15,7 +15,7 @@
 
 -(instancetype) init
 {
-    @throw @"Can not create instance directly";
+    @throw [NSException exceptionWithName:NSInvocationOperationCancelledException reason:@"Can not create instance directly" userInfo:nil];
 }
 
 -(instancetype) initWithDictionary:(NSDictionary *)info
