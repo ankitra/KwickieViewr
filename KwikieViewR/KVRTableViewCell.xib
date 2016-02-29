@@ -16,7 +16,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qzG-hd-p7D" userLabel="AskerImage">
-                        <rect key="frame" x="0.0" y="0.0" width="275" height="275"/>
+                        <rect key="frame" x="10" y="10" width="265" height="265"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="qzG-hd-p7D" secondAttribute="height" multiplier="1:1" id="AKm-0F-jxv"/>
                         </constraints>
@@ -37,7 +37,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0QE-9x-pye" userLabel="VideoThumb">
-                        <rect key="frame" x="365" y="0.0" width="300" height="300"/>
+                        <rect key="frame" x="376" y="10" width="279" height="279"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="0QE-9x-pye" secondAttribute="height" multiplier="1:1" id="e2s-go-s3S"/>
                         </constraints>
@@ -45,7 +45,7 @@
                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="mEm-Ve-kYY" userLabel="AskerProgress">
                         <rect key="frame" x="113" y="113" width="20" height="20"/>
                     </activityIndicatorView>
-                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9ZC-k0-nJe" userLabel="ThumnailProgress">
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9ZC-k0-nJe" userLabel="ThumnailProgress">
                         <rect key="frame" x="505" y="140" width="20" height="20"/>
                     </activityIndicatorView>
                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="CAb-n3-LI1" userLabel="ReplierProgress">
@@ -65,20 +65,22 @@
                     <constraint firstAttribute="bottomMargin" secondItem="MNd-6z-3Op" secondAttribute="bottom" constant="2" id="1bn-TW-ZVc"/>
                     <constraint firstItem="oTL-xX-DzE" firstAttribute="centerX" secondItem="qzG-hd-p7D" secondAttribute="centerX" id="6wC-b0-vgf"/>
                     <constraint firstItem="oTL-xX-DzE" firstAttribute="width" secondItem="qzG-hd-p7D" secondAttribute="width" id="7Bb-ge-kuv"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="0QE-9x-pye" secondAttribute="bottom" constant="-9" id="A8T-6V-yhS"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0QE-9x-pye" secondAttribute="bottom" constant="2" id="A8T-6V-yhS"/>
+                    <constraint firstItem="9ZC-k0-nJe" firstAttribute="centerY" secondItem="0QE-9x-pye" secondAttribute="centerY" id="IEi-aV-PhY"/>
                     <constraint firstItem="MNd-6z-3Op" firstAttribute="width" secondItem="PdU-em-7MJ" secondAttribute="width" id="PoE-ko-ghD"/>
                     <constraint firstItem="CAb-n3-LI1" firstAttribute="centerX" secondItem="PdU-em-7MJ" secondAttribute="centerX" id="SaV-eH-ZQD"/>
                     <constraint firstItem="oTL-xX-DzE" firstAttribute="top" secondItem="qzG-hd-p7D" secondAttribute="bottom" constant="1" id="Tls-vp-t8N"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="0QE-9x-pye" secondAttribute="trailing" constant="-8" id="V1k-hY-MJe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="0QE-9x-pye" secondAttribute="trailing" constant="2" id="V1k-hY-MJe"/>
                     <constraint firstItem="MNd-6z-3Op" firstAttribute="centerX" secondItem="PdU-em-7MJ" secondAttribute="centerX" id="Xjl-Ib-ROn"/>
                     <constraint firstItem="CAb-n3-LI1" firstAttribute="centerY" secondItem="PdU-em-7MJ" secondAttribute="centerY" id="d7K-qE-OFd"/>
-                    <constraint firstItem="qzG-hd-p7D" firstAttribute="leading" secondItem="h4O-bj-60e" secondAttribute="leadingMargin" constant="-8" id="dUT-8N-aQE"/>
+                    <constraint firstItem="qzG-hd-p7D" firstAttribute="leading" secondItem="h4O-bj-60e" secondAttribute="leadingMargin" constant="2" id="dUT-8N-aQE"/>
                     <constraint firstItem="MNd-6z-3Op" firstAttribute="top" secondItem="PdU-em-7MJ" secondAttribute="bottom" constant="1" id="f5C-fJ-dO2"/>
-                    <constraint firstItem="0QE-9x-pye" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="-8" id="ifY-Cm-qLi"/>
-                    <constraint firstItem="qzG-hd-p7D" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="-8" id="lL3-Ic-6Gu"/>
+                    <constraint firstItem="0QE-9x-pye" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="2" id="ifY-Cm-qLi"/>
+                    <constraint firstItem="qzG-hd-p7D" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="2" id="lL3-Ic-6Gu"/>
+                    <constraint firstItem="9ZC-k0-nJe" firstAttribute="centerX" secondItem="0QE-9x-pye" secondAttribute="centerX" id="mHe-sb-Rkd"/>
                     <constraint firstAttribute="bottomMargin" secondItem="oTL-xX-DzE" secondAttribute="bottom" constant="2" id="nBm-QX-pns"/>
                     <constraint firstItem="mEm-Ve-kYY" firstAttribute="centerY" secondItem="qzG-hd-p7D" secondAttribute="centerY" id="nIj-zs-399"/>
-                    <constraint firstItem="PdU-em-7MJ" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="-8" id="nuO-ko-A6C"/>
+                    <constraint firstItem="PdU-em-7MJ" firstAttribute="top" secondItem="h4O-bj-60e" secondAttribute="topMargin" constant="2" id="nuO-ko-A6C"/>
                     <constraint firstItem="PdU-em-7MJ" firstAttribute="width" secondItem="qzG-hd-p7D" secondAttribute="width" id="oh2-BN-jSr"/>
                     <constraint firstItem="mEm-Ve-kYY" firstAttribute="centerX" secondItem="qzG-hd-p7D" secondAttribute="centerX" id="qys-R5-zmP"/>
                     <constraint firstItem="PdU-em-7MJ" firstAttribute="leading" secondItem="qzG-hd-p7D" secondAttribute="trailing" constant="14" id="ulT-Go-PoR"/>

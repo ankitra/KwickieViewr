@@ -28,8 +28,9 @@
     AVPlayer *player = [AVPlayer playerWithURL:videoURL];
     AVPlayerViewController *playerViewController = [AVPlayerViewController new];
     playerViewController.player = player;
+    [player play];
+
     [self.navigationController presentViewController:playerViewController animated:YES completion:nil];
-    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -62,6 +63,11 @@
         cell = [nib objectAtIndex:0];
     }
     
+    cell.askerProgress.hidesWhenStopped = YES;
+    cell.thumbnailProgress.hidesWhenStopped = YES;
+    cell.replierProgress.hidesWhenStopped = YES;
+
+    
     [cell.askerProgress startAnimating];
     [cell.thumbnailProgress startAnimating];
     [cell.replierProgress startAnimating];
@@ -73,9 +79,6 @@
     cell.replierImage.contentMode = UIViewContentModeScaleAspectFit;
     cell.videoThumb.contentMode = UIViewContentModeScaleAspectFit;
     
-    cell.askerProgress.hidesWhenStopped = YES;
-    cell.thumbnailProgress.hidesWhenStopped = YES;
-    cell.replierProgress.hidesWhenStopped = YES;
     
     
     [[NetworkManager sharedInstance] loadImage:[model askerPicture:indexPath.row] AndCall:^(UIImage * image, NSError * error){
