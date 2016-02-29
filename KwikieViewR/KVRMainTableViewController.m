@@ -30,7 +30,7 @@
     playerViewController.player = player;
     [player play];
 
-    [self.navigationController presentViewController:playerViewController animated:YES completion:nil];
+    [self presentViewController:playerViewController animated:YES completion:nil];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

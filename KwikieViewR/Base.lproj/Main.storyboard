@@ -36,7 +36,7 @@
                                 </accessibility>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="WMz-2O-vmZ" kind="presentation" identifier="GotoMainScreen" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="GRo-Ag-bjC"/>
+                                    <segue destination="fOD-gq-fPY" kind="presentation" identifier="GotoMainScreen" modalTransitionStyle="crossDissolve" id="P6d-CA-aeQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,12 +69,15 @@
                         <color key="separatorColor" red="1" green="0.54018948696517155" blue="0.6213018926857663" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="vwJ-c7-6RN">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vwJ-c7-6RN" id="fzS-KJ-yk6">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="hrs-0I-oaZ" kind="presentation" identifier="GotoAVPlayerScreen" id="Nhp-Ff-wpT"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -89,7 +92,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ky-Ls-t0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2331" y="598"/>
+            <point key="canvasLocation" x="1088" y="550"/>
         </scene>
         <!--AV Player View Controller-->
         <scene sceneID="wdn-E7-wde">
@@ -97,35 +100,7 @@
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="hrs-0I-oaZ" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C87-La-EnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2363" y="1424"/>
-        </scene>
-        <!--Kwickies!-->
-        <scene sceneID="I6z-Fr-4Tk">
-            <objects>
-                <navigationController title="Kwickies!" modalTransitionStyle="partialCurl" toolbarHidden="NO" id="WMz-2O-vmZ" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="AN0-7S-uuo"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vpU-JK-cAP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.98039215690000003" green="0.1450980392" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="1" green="0.54018948700000002" blue="0.62130189270000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="OIR-A1-Qg8">
-                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.98039215690000003" green="0.1450980392" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="1" green="0.54018948700000002" blue="0.62130189270000002" alpha="1" colorSpace="calibratedRGB"/>
-                    </toolbar>
-                    <connections>
-                        <segue destination="fOD-gq-fPY" kind="relationship" relationship="rootViewController" id="8GJ-X9-1xs"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kYF-pe-yPq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1095" y="555"/>
+            <point key="canvasLocation" x="1845" y="550"/>
         </scene>
     </scenes>
 </document>
